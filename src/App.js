@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 import HeroImage from "./components/HeroImage";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <p>Where the SearchBar will eventually Be...</p>
+        <SearchBar />
       </div>
       <div>
           <HeroImage />
