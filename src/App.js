@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
+import HeroImage from "./components/HeroImage";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <div>
+        <p>Where the SearchBar will eventually Be...</p>
+      </div>
+      <div>
+          <HeroImage />
+      </div>
     </div>
   );
 }
